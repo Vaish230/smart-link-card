@@ -5,12 +5,12 @@ The entire card is encoded inside the URL itself, making it fully self-contained
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 [https://your-vercel-link.vercel.app](https://smart-link-card.vercel.app/)
 
 ---
 
-## ✨ Features
+## Features
 
 - Create link cards (Title, Description, URL)
 - Live preview while typing
@@ -24,17 +24,17 @@ The entire card is encoded inside the URL itself, making it fully self-contained
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
-User inputs data →  
-Data is encoded into URL token →  
-Token generates shareable link →  
-QR code uses same link →  
+User inputs data 
+Data is encoded into URL token  
+Token generates shareable link  
+QR code uses same link 
 Opening link decodes and renders card.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React 18
 - Vite
@@ -45,48 +45,20 @@ Opening link decodes and renders card.
 
 ---
 
-## 📁 Project Structure
-
-smart-link-card/
-├── index.html
-├── vite.config.js
-├── vercel.json
-├── package.json
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    ├── pages/
-    │   ├── GeneratorPage.jsx
-    │   └── CardViewerPage.jsx
-    ├── components/
-    │   ├── Header.jsx
-    │   ├── Footer.jsx
-    │   ├── LinkCard.jsx
-    │   ├── QrPanel.jsx
-    │   └── ExportPanel.jsx
-    ├── utils/
-    │   ├── cardEncoding.js
-    │   ├── clipboard.js
-    │   ├── exportImage.js
-    │   └── validation.js
-    └── styles/
-
----
-
-## ⚙️ Setup
+## Setup
 
 npm install  
 npm run dev
 
 ---
 
-## 📦 Build
+## Build
 
 npm run build
 
 ---
 
-## 🚀 Deploy
+## Deploy
 
 - Push to GitHub
 - Import in Vercel
@@ -95,15 +67,8 @@ npm run build
 
 ---
 
-## 🎯 Mandatory Requirement
 
-Button: "Built for Digital Heroes"  
-Link: https://digitalheroesco.com  
-Must include full name + email in footer
-
----
-
-## 👤 Author
+## Author
 
 Vaishnavi Awate  
 vaishnavi230906@gmail.com
